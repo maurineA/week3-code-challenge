@@ -13,7 +13,6 @@ function getFilms(){
 }
 
 
-
 function displayItems(films){
     const itemContainer = document.querySelector("#films");
     for(film of films){
